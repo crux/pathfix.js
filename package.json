@@ -1,5 +1,5 @@
 {
-  "name": "pathfix",
+  "name": "@joe_six/pathfix",
   "version": "1.0.0",
   "description": "managing shell PATH variable",
   "author": "dirk lüsebrink <dirk.luesebrink@gmail.com>",
@@ -22,5 +22,14 @@
   "dependencies": {
     "getenv": "^1.0.0",
     "yargs": "^17.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crux/pathfix.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crux/pathfix.js/issues"
+  },
+  "homepage": "https://github.com/crux/pathfix.js#readme"
 }
