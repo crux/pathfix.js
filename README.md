@@ -32,9 +32,9 @@ This makes a `path` command available in your shell, and puts whatever the resul
 
 ```sh
 $ echo $PATH
-/Users/crux/.nvm/versions/node/v16.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/crux/.cargo/bin:/usr/local/opt/fzf/bin
+/Users/crux/.nvm/versions/node/v16.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
 $ path + ~/bin   
-$ echo $PATH  
-/Users/crux/bin:/Users/crux/.nvm/versions/node/v16.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/crux/.cargo/bin:/usr/local/opt/fzf/bin
+$ echo $PATH
+/Users/crux/bin:/Users/crux/.nvm/versions/node/v16.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
 $ 
 ```
