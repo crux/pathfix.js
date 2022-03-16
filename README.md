@@ -1,6 +1,6 @@
 # pathfix.js -- Managing shell's PATH variable
 
-Not such a big, but that is something I needed back in the day when managing various different software packages and switching from one setup to the other tended to allways adding another directory to the shell PATH variable. So one day, I sat down and wrote a little ruby script to remove duplicates from the shell PATH var, append or prepend new directories easily, or, remove dir entries based on regualar expression matching.
+Not a big thing, but something I needed back in the day when managing various different software packages(*) and switching from one setup to the other tended to allways adding another directory to the shell PATH variable. So one day, I sat down and wrote a little ruby script to remove duplicates from the shell PATH var, append or prepend new directories easily, or, remove dir entries based on regualar expression matching.
 
 ```sh
 # echo dublicate cleaned PATH variable
@@ -38,3 +38,5 @@ $ echo $PATH
 /Users/crux/bin:/Users/crux/.nvm/versions/node/v16.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
 $ 
 ```
+
+[\*]: was [Softimage](https://en.wikipedia.org/wiki/Autodesk_Softimage), and giving me the nice message: "Rediculous long PATH variable. Truncated"
